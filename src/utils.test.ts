@@ -31,8 +31,8 @@ describe('isInHoursRange', () => {
     expect(isInHoursRange(18, [9, 18])).toBeFalsy();
   });
 
-  it('hour equals end of overnight range', () => {
-    //Edge case when the startHour is 10pm and the lastWorkingHour is 6am
+  it('hour within of overnight range', () => {
+    //Edge case when the startHour is 10pm and the endHour is 6am
     expect(isInHoursRange(1, [22, 6])).toBeTruthy();
   });
 });

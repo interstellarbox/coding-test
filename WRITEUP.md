@@ -34,7 +34,7 @@ periods within the same day.
   },
 ```
 
-or open time includes minutes
+or time includes minutes
 
   ```sh
   {

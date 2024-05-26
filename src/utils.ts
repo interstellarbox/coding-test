@@ -23,7 +23,7 @@ export const isInHoursRange = (
   hoursRange: HourNumbers[],
 ): boolean => {
   const [startHour, endHour] = hoursRange;
-  // handle cases where lastWorkingHour is less than startHour
+  // handle cases where endHour is less than startHour
   // (e.g. from 10pm to 6am => from 22 to 6)
   if (startHour > endHour) {
     return hour >= startHour || hour < endHour;
