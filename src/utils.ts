@@ -1,5 +1,5 @@
 import { DateTime } from 'luxon';
-import { HourNumbers } from './types';
+import type { HourNumbers } from './types';
 
 /**
  * Convert a given time in 12-hour string format to 24-hour number format

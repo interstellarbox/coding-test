@@ -1,4 +1,4 @@
-import { WeekdayNumbers } from './types';
+import type { WeekdayNumbers } from './types';
 
 export const DayMap: { [key: string]: WeekdayNumbers } = {
   Mon: 1,
